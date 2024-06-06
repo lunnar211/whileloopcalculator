@@ -1,6 +1,6 @@
 running=True
 while running:
-    a=int(input("Enter the first numer: "))
+    a=int(input("Enter the first number: "))
     b=int(input("Enter the second number: "))
     c=input("Enter the symbol: ")
 
@@ -14,7 +14,7 @@ while running:
         print("The division of a/b is ",a/b)
     else:
         print("Try again ")
-    play=input("Do you want to run again (y/n)".lower())
+play=input("Do you want to run again (y/n)".lower())
 if not play=="y":
     running=False
-print("Thrank you for using our calculator")
+print("Thank you for using our calculator")
